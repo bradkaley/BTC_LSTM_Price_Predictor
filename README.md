@@ -20,9 +20,9 @@ The following questions were answered based on the two models:
 
     As shown below, the model based on historical BTC prices tracked actual BTC prices better over time (both with and without parameter tuning) than the model based on the FNG Index. The historical BTC price model tracked well for much of the data but under-predicted the price during the period of late June to mid-July. Tuning the above parameters mostly only benefited one of the models at a time, mainly the BTC historical price model. The FNG Index model poorly predicted the actual BTC price during virtually the entire data set.
 
-![BTC Historical Price Model](Model_Plots/BTC_historical_price_model_plot.png)
+    ![BTC Historical Price Model](Model_Plots/BTC_historical_price_model_plot.png)
 
-![FNG Index Model](Model_Plots/FNG_index_model_plot.png)    
+    ![FNG Index Model](Model_Plots/FNG_index_model_plot.png)    
 
 3. Which window size works best for the model?
 
